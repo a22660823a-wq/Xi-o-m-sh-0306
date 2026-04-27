@@ -8,8 +8,8 @@
 </head>
 <body>
     <!-- 背景音樂 -->
-    <audio id="bgMusic" loop>
-        <source src="images/小藍背心 - 目及皆是你動態歌詞我戒不掉你 像戒不了呼吸 漫長的距離 我用思念來代替.mp3" type="audio/mpeg">
+    <audio id="bgMusic">
+        <source src="images/音樂/(1).mp3" type="audio/mpeg">
     </audio>
 
     <!-- 飄落愛心背景 -->
@@ -25,6 +25,9 @@
                         <button class="music-control-btn" onclick="prevTrack()">&#10094;</button>
                         <button id="musicBtn" class="music-btn"></button>
                         <button class="music-control-btn" onclick="nextTrack()">&#10095;</button>
+                    </div>
+                    <div style="margin-top: 10px; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                        <button class="music-control-btn" id="speedBtn" onclick="changeSpeed()">1x</button>
                     </div>
                     <p style="opacity: 0.6; font-size: 0.9rem; margin-top: 8px;">🎧 戴上耳機聽個音樂放鬆心情<br>點擊唱片機撥放/暫停音樂<br>(總共3首)</p>
                 </div>
